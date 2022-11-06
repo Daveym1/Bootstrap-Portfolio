@@ -2,12 +2,13 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
 }
 body {
     background-color: #256D85;
     width: 100%;
 }
+
+/* NavBar styles */
 
 .navbar {
     background-color: #06283D !important;
@@ -25,15 +26,6 @@ body {
     color: #47B5FF;
 }
 
-.navbar .navbar-nav {
-    margin: 0 40rem;
-    
-}
-
-.navbar .navbar-nav li {
-    padding: 4rem;
-}
-
 .navbar .navbar-nav li a {
     color: white !important;
 }
@@ -42,6 +34,13 @@ body {
     color: #47B5FF !important;
     
 }
+
+.nav-link {
+    background-color: #06283D;
+    padding-left: 1rem;
+}
+
+/* Jumbotron styles */
 
 .jumbotron {
   width: 70%;
@@ -73,8 +72,30 @@ body {
     padding-top: 1rem;
 }
 
+/* Work Section Styles */
+
 .card img {
     max-width:100%;
     max-height:100%;
     object-fit: contain;
 }
+
+#work h2 {
+    margin: 1rem 0;
+    background-color: #DFF6FF;
+}
+
+/* Footer Styles */
+
+#contact h2 {
+    margin: 1rem 0;
+    background-color: #DFF6FF;
+}
+
+.contact {
+    background-color: #06283D;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+}
+
