@@ -81,6 +81,7 @@ body {
 }
 
 .jumbotron .lead {
+    font-size: 1.5rem;
     padding-top: 1rem;
 }
 
@@ -98,6 +99,10 @@ body {
 }
 
 /* Skills Section Styles */
+
+.skills {
+    background-color: #DFF6FF;
+}
 
 .skills h2 {
     margin: 1rem 0;
